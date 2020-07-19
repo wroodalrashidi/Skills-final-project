@@ -10,7 +10,7 @@ import UIKit
 import MessageUI
 
 
-class profileDetailsVC: UIViewController, MFMailComposeViewControllerDelegate  {
+class profileDetailsVC: UIViewController  {
     
     var selected4 : profile!
 

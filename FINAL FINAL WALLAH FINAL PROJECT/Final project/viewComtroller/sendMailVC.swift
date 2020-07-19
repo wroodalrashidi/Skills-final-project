@@ -1,8 +1,8 @@
 //
-//  sendEmailVC.swift
+//  sendMailVC.swift
 //  Final project
 //
-//  Created by Wrood Alrashidi on 18/07/2020.
+//  Created by Wrood Alrashidi on 19/07/2020.
 //  Copyright © 2020 Wrood Alrashidi. All rights reserved.
 //
 
@@ -21,8 +21,7 @@ class sendEmailVC: UIViewController, MFMailComposeViewControllerDelegate, UIText
     @IBOutlet weak var subject: UITextField!
     @IBOutlet weak var body: UITextView!
     
-    
-    @IBAction func sendmail2(_ sender: Any) {
+    @IBAction func sendMail(_ sender: Any) {
         let picker = MFMailComposeViewController()
         picker.mailComposeDelegate = self
             
@@ -34,6 +33,10 @@ class sendEmailVC: UIViewController, MFMailComposeViewControllerDelegate, UIText
         present(picker, animated: true, completion: nil)
     }
     
+ 
+    
+    // MFMailComposeViewControllerDelegate
+
     // 1
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
          dismiss(animated: true, completion: nil)
@@ -67,5 +70,5 @@ class sendEmailVC: UIViewController, MFMailComposeViewControllerDelegate, UIText
     
     
     
-    
 }
+

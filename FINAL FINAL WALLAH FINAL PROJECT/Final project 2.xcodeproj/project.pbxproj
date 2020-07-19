@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		0B23B67424BECE170054DDF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B23B67324BECE170054DDF9 /* GoogleService-Info.plist */; };
 		0B23B67724BF9BCC0054DDF9 /* AddInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B23B67624BF9BCC0054DDF9 /* AddInfoVC.swift */; };
-		0B23B68324C28AE80054DDF9 /* sendEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B23B68224C28AE80054DDF9 /* sendEmailVC.swift */; };
 		0B24CD8524B9414D00DF9CAE /* catogries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24CD8424B9414D00DF9CAE /* catogries.swift */; };
 		0B24CD8724B9501E00DF9CAE /* ListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24CD8624B9501E00DF9CAE /* ListTableVC.swift */; };
+		0B42E55D24C4E6DE00EE3D6E /* sendMailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B42E55C24C4E6DE00EE3D6E /* sendMailVC.swift */; };
 		0B9D9A0B24B9F31100E9C82B /* listsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D9A0A24B9F31000E9C82B /* listsTableViewCell.swift */; };
 		0B9D9A0D24BAB27A00E9C82B /* resumesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D9A0C24BAB27A00E9C82B /* resumesTableViewController.swift */; };
 		0B9D9A0F24BAB5AD00E9C82B /* resumeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9D9A0E24BAB5AD00E9C82B /* resumeTableViewCell.swift */; };
@@ -27,9 +27,9 @@
 /* Begin PBXFileReference section */
 		0B23B67324BECE170054DDF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0B23B67624BF9BCC0054DDF9 /* AddInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoVC.swift; sourceTree = "<group>"; };
-		0B23B68224C28AE80054DDF9 /* sendEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendEmailVC.swift; sourceTree = "<group>"; };
 		0B24CD8424B9414D00DF9CAE /* catogries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catogries.swift; sourceTree = "<group>"; };
 		0B24CD8624B9501E00DF9CAE /* ListTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableVC.swift; sourceTree = "<group>"; };
+		0B42E55C24C4E6DE00EE3D6E /* sendMailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendMailVC.swift; sourceTree = "<group>"; };
 		0B9D9A0A24B9F31000E9C82B /* listsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listsTableViewCell.swift; sourceTree = "<group>"; };
 		0B9D9A0C24BAB27A00E9C82B /* resumesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resumesTableViewController.swift; sourceTree = "<group>"; };
 		0B9D9A0E24BAB5AD00E9C82B /* resumeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resumeTableViewCell.swift; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 				0B9D9A0C24BAB27A00E9C82B /* resumesTableViewController.swift */,
 				0B9D9A0E24BAB5AD00E9C82B /* resumeTableViewCell.swift */,
 				0B23B67624BF9BCC0054DDF9 /* AddInfoVC.swift */,
-				0B23B68224C28AE80054DDF9 /* sendEmailVC.swift */,
+				0B42E55C24C4E6DE00EE3D6E /* sendMailVC.swift */,
 			);
 			path = viewComtroller;
 			sourceTree = "<group>";
@@ -153,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0BF9DC5624B2A3940013988D /* Build configuration list for PBXProject "Final project" */;
+			buildConfigurationList = 0BF9DC5624B2A3940013988D /* Build configuration list for PBXProject "Final project 2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,13 +194,13 @@
 				0B9D9A0F24BAB5AD00E9C82B /* resumeTableViewCell.swift in Sources */,
 				0BF9DC6324B2A3940013988D /* ViewController.swift in Sources */,
 				0BF9DC7C24B553580013988D /* profileVC.swift in Sources */,
-				0B23B68324C28AE80054DDF9 /* sendEmailVC.swift in Sources */,
 				0BF9DC5F24B2A3940013988D /* AppDelegate.swift in Sources */,
 				0B9D9A0D24BAB27A00E9C82B /* resumesTableViewController.swift in Sources */,
 				0B9D9A0B24B9F31100E9C82B /* listsTableViewCell.swift in Sources */,
 				0BF9DC6124B2A3940013988D /* SceneDelegate.swift in Sources */,
 				0B23B67724BF9BCC0054DDF9 /* AddInfoVC.swift in Sources */,
 				0B24CD8724B9501E00DF9CAE /* ListTableVC.swift in Sources */,
+				0B42E55D24C4E6DE00EE3D6E /* sendMailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BF9DC5624B2A3940013988D /* Build configuration list for PBXProject "Final project" */ = {
+		0BF9DC5624B2A3940013988D /* Build configuration list for PBXProject "Final project 2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BF9DC6D24B2A3990013988D /* Debug */,
