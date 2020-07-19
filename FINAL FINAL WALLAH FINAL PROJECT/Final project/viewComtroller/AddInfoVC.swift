@@ -9,7 +9,7 @@
 import UIKit
 import MessageUI
 
-class AddInfoVC: UIViewController, MFMailComposeViewControllerDelegate {
+class AddInfoVC: UIViewController, MFMailComposeViewControllerDelegate, UITextFieldDelegate {
     
     var image: UIImage = UIImage(named: "english teacher")!
     
@@ -59,6 +59,13 @@ class AddInfoVC: UIViewController, MFMailComposeViewControllerDelegate {
         }
     }
 
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
 let skills = [
 "الجبر",
     "اللغة العربية",

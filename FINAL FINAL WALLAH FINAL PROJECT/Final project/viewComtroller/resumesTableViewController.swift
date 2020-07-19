@@ -37,6 +37,7 @@ class resumesTableViewController: UITableViewController {
         cell.workerImage.image = selected3[indexPath.row].image
         cell.workerName.text = selected3[indexPath.row].name
         cell.workerRating.text = selected3[indexPath.row].rating
+        cell.workerImage.layer.cornerRadius = 75 
         return cell
         
     }

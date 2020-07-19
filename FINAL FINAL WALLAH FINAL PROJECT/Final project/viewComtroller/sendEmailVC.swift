@@ -20,7 +20,9 @@ class sendEmailVC: UIViewController, MFMailComposeViewControllerDelegate, UIText
     
     @IBOutlet weak var subject: UITextField!
     @IBOutlet weak var body: UITextView!
-    @IBAction func sendMail(_ sender: Any) {
+    
+    
+    @IBAction func sendmail2(_ sender: Any) {
         let picker = MFMailComposeViewController()
         picker.mailComposeDelegate = self
             
@@ -31,9 +33,7 @@ class sendEmailVC: UIViewController, MFMailComposeViewControllerDelegate, UIText
             
         present(picker, animated: true, completion: nil)
     }
-
-    // MFMailComposeViewControllerDelegate
-
+    
     // 1
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
          dismiss(animated: true, completion: nil)

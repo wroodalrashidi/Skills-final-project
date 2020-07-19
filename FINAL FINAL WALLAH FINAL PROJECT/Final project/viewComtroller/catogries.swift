@@ -118,7 +118,7 @@ var listOfChefWorkers = [
 var arrayOftutor: [catogries] =
     [catogries(listname: "الجبر", listimage: UIImage(named: "algebra teacher")!, listworkers: listOfAlgebraworker),
     catogries(listname: "اللغة العربية", listimage: UIImage(named: "arabic teacher")!, listworkers: listOfArabicworker),
-    catogries(listname: "الفزياء", listimage: UIImage(named: "physics teacher")!, listworkers: listOfPhysicsWorker),
+    catogries(listname: "الفيزياء", listimage: UIImage(named: "physics teacher")!, listworkers: listOfPhysicsWorker),
     catogries(listname: "اللغة النجليزية", listimage: UIImage(named: "english teacher")!, listworkers: listOfEnglishWorker)]
 
 
