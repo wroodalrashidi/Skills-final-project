@@ -330,12 +330,11 @@
                                 <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TmY-qi-GRE">
-                                <rect key="frame" x="20" y="736" width="69" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSW-zU-wri">
+                                <rect key="frame" x="20" y="754" width="62" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="sendEmail:" destination="PDQ-2x-eCs" eventType="touchUpInside" id="cgD-i2-dmY"/>
-                                    <segue destination="6Hj-ZD-JYG" kind="show" id="UUo-Yr-eaU"/>
+                                    <segue destination="6Hj-ZD-JYG" kind="show" id="60t-Ve-O3u"/>
                                 </connections>
                             </button>
                         </subviews>

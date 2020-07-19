@@ -19,7 +19,7 @@ class profileDetailsVC: UIViewController  {
     @IBOutlet weak var email: UILabel!
     @IBOutlet weak var profilePicture: UIImageView!
     
-        
+    
         override func viewDidLoad() {
         super.viewDidLoad()
             name.text = selected4.name
